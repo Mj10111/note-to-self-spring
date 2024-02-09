@@ -1,0 +1,21 @@
+* {
+    font-family: "Bodoni MT", Serif;
+}
+
+vaadin-text-field {
+    font-style: italic;
+
+}
+
+vaadin-grid-sorter {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+vaadin-grid::part(odd-row) {
+    --lumo-base-color: azure;
+}
+
+vaadin-text-area {
+    font-size: 20px;
+}
