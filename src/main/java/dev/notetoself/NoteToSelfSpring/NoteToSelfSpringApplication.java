@@ -25,6 +25,7 @@ public class NoteToSelfSpringApplication {
 	}
 
 
+	//Testing temp branch
 	@Bean
 	public CommandLineRunner loadData(NoteRepository repository){
 		return args -> {
