@@ -30,12 +30,12 @@ public class NoteToSelfSpringApplication {
 	@Bean
 	public CommandLineRunner loadData(NoteRepository repository){
 		return args -> {
-			repository.save(new Note("Test note", LocalDateTime.now().format(dtf) , null));
+			/*repository.save(new Note("Test note", LocalDateTime.now().format(dtf) , null));
 			repository.save(new Note("Second note for testing", LocalDateTime.now().format(dtf), null));
 			repository.save(new Note("Today I added some data to my repository", LocalDateTime.now().format(dtf), null));
 			repository.save(new Note("I really hope this works", LocalDateTime.now().format(dtf), null));
 			repository.save(new Note("A longer note that is longer than usual so that I can see how long this column turns out because this note is so long that it would be longer than the other notes that are not as long because they are short and because they are short they are not as long as this longer note.", LocalDateTime.now().format(dtf), null));
-			repository.save(new Note("", LocalDateTime.now().format(dtf), null));
+			repository.save(new Note("", LocalDateTime.now().format(dtf), null));*/
 
 
 			log.info("Notes found by finalAdd():");
